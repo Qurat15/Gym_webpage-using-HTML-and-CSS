@@ -1,0 +1,126 @@
+*{
+    margin:0;
+    padding:0;  
+}
+
+.left{
+    position:absolute;
+    left:20px;
+    top:20px;
+    display:inline-block;     /* Can Change Width */
+    /* border:1px solid red; */
+}
+.mid{
+    display:block;
+    width:33%;
+    margin:20px auto;
+    /* border:1px solid green; */
+}
+.right{
+    position:absolute;
+    right:50px;
+    top:30px;
+    display:inline-block;
+    /* border:1px solid yellow; */
+}
+
+
+body{
+    background: url("../CSS - My Site Images/images/gym2.jpg");
+    background-size: cover; /*fills the image into full container either by stretching, or cutting the image  */
+    
+   
+}
+
+.navigation-box{
+    position:absolute;
+    right:20px;
+    top:20px;
+
+}
+
+.navigation-items{
+    display:inline-block;
+    margin:20px;
+    font-size: 1.3rem;
+}
+
+.navigation-items a{
+    text-decoration: none;
+    color: #d62319;
+}
+
+.navigation-items a:hover, .navigation-items a.active{
+    text-decoration: underline;
+    color: #92140C;
+}
+
+
+
+.logo{
+   width:130px; 
+   /* filter:invert(0%);  can make white logo or img as black , and black to white*/     
+}
+
+.btn{
+    background-color: rgb(236, 189, 127);
+    border:none;
+    padding:10px;
+    margin:10px;
+    font-size:15px;
+}
+
+.btn:hover{
+
+    background-color: rgb(187, 126, 46);
+}
+
+
+
+
+
+
+
+
+
+
+
+/* body{
+    background-image: url("../CSS - My Site Images/images/gym2.jpg") ;
+    background-size:cover;
+    font-family: Helvetica, sans-serif;
+
+    
+}
+
+.navbar{
+    position: absolute;
+    right:10px;
+    margin:20px;
+}
+
+.navbar-items{
+    list-style:none;
+    display:inline-block;
+    
+} */
+
+/* .navbar-items a{
+    text-decoration: none;
+    color:#121213;
+    margin:20px;
+    
+} */
+
+/* .navbar-items a:hover{
+    text-decoration: none;
+  
+    color:#08080c;
+    margin:20px;
+    text-decoration: 3px underline ;
+    transition: 0.6s;
+    bottom:-10px;
+    width:0px;
+} */
+
+/* color:#92140C; */
